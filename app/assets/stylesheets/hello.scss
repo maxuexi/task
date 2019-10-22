@@ -1,0 +1,372 @@
+// 魔杖首页
+.mz_home_banner {
+  width: 100%;
+  height: 528px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.mz_home_intro {
+  background-color: #fff;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  .intro_title {
+    text-align: center;
+    h3 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      color: #999;
+    }
+  }
+  .row {
+    margin-top: 80px;
+    .intro_aside {
+      font-size: 16px;
+      span {
+        width: 108px;
+        height: 40px;
+        background-color: #ebebeb;
+        display: block;
+        margin: 8px auto 32px;
+        text-align: center;
+        line-height: 40px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        border-radius: 24px;
+        cursor: pointer;
+        &.now {
+          background-color: #e9f2fe;
+          color: #4997f7;
+        }
+      }
+      .aside_intro {
+        p {
+          color: #666;
+          font-size: 16px;
+          line-height: 46px;
+          margin-bottom: 0px;
+          text-align: center;
+          &.now {
+            color: #333;
+          }
+        }
+      }
+    }
+    .intro_middle {
+      .middle_img {
+        width: 534px;
+        height: 396px;
+        margin: auto;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .middle_button {
+        width: 540px;
+        padding-left: 8px;
+        padding-right: 88px;
+      }
+    }
+  }
+}
+.mz_common_button {
+  display: block;
+  width: 136px;
+  height: 36px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  border-radius: 32px;
+  text-decoration: none;
+  &.button_left {
+    background-color: #3e8def;
+    color: #fff;
+    float: left;
+    &:hover {
+      background-image: -webkit-linear-gradient(to right, #327dda, #0aabff);
+      background-image: -o-linear-gradient(to right, #327dda, #0aabff);
+      background-image: -ms-linear-gradient(to right, #327dda, #0aabff);
+      background-image: -moz-linear-gradient(to right, #327dda, #0aabff);
+      background: linear-gradient(to right, #327dda, #0aabff);
+      -webkit-box-shadow: 4px 4px 10px 2px rgba(50, 125, 218, .5);
+      -moz-box-shadow: 4px 4px 10px 2px rgba(50, 125, 218, .5);
+      box-shadow: 4px 4px 10px 2px rgba(50, 125, 218, .5);
+      text-decoration: none;
+    }
+  }
+  &.button_right {
+    border: 1px solid #3e8def;
+    color: #3e8def;
+    float: right;
+    &:hover {
+      border-color: #347fdb;
+      color: #347fdb;
+      text-decoration: none;
+    }
+  }
+}
+.mz_common_title {
+  width: 100%;
+  background-color: #f2f7fc;
+  padding-top: 64px;
+  padding-bottom: 40px;
+  text-align: center;
+  h3 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #999;
+    font-size: 16px;
+  }
+}
+.mz_home_server {
+  text-align: center;
+  background-color: #fff;
+  h3 {
+    font-size: 30px;
+    color: #333;
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+  .server_product {
+    .row {
+      .server_product_items {
+        height: 320px;
+        padding-left: 0;
+        padding-right: 40px;
+        cursor: pointer;
+        .server_product_item {
+          width: 248px;
+          height: 320px;
+          padding-top: 50px;
+          -webkit-box-shadow: 4px 8px 20px 10px rgba(0, 58, 129, .1);
+          -moz-box-shadow: 4px 8px 20px 10px rgba(0, 58, 129, .1);
+          box-shadow: 4px 8px 20px 10px rgba(0, 58, 129, .1);
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          .item_logo {
+            margin: auto;
+            width: 70px;
+            height: 70px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          h4 {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            font-size: 24px;
+            color: #333;
+          }
+          p {
+            font-size: 16px;
+            color: #808080;
+            line-height: 26px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .server_contact {
+    width: 540px;
+    padding-left: 8px;
+    padding-right: 88px;
+    margin: 64px auto;
+  }
+}
+.mz_home_success {
+  padding-top: 64px;
+  padding-bottom: 48px;
+  background-color: #f7fafc;
+  text-align: center;
+  h3 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #999;
+    font-size: 16px;
+  }
+  .row {
+    .success_items {
+      padding-right: 40px;
+      padding-left: 0;
+      height: 330px;
+      margin-top: 32px;
+      cursor: pointer;
+      .success_item {
+        height: 330px;
+        width: 350px;
+        background-color: #fff;
+        box-shadow: 6px 6px 20px 6px rgba(0, 58, 129, .1);
+        .item_logo {
+          width: 350px;
+          height: 197px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        h4 {
+          height: 50px;
+          width: 300px;
+          border-bottom: 1px solid #ebebeb;
+          color: #333;
+          font-size: 20px;
+          line-height: 50px;
+          margin: auto;
+          text-align: center;
+        }
+        .item_increace {
+          width: 50%;
+          float: left;
+          text-align: center;
+          margin-top: 8px;
+          .item_rate {
+            color: #4997f7;
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 16px;
+            color: #999;
+            span {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .success_contact {
+    width: 540px;
+    padding-left: 8px;
+    padding-right: 88px;
+    margin: 64px auto 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  
+}
+//模杖首页结束
+//模杖产品页开始
+.mz_product_banner {
+  width: 100%;
+  height: 528px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.mz_product_intro {
+  background-color: #fff;
+  padding-top: 64px;
+  padding-bottom: 108px;
+  .intro_title {
+    text-align: center;
+    margin-bottom: 80px;
+    h3 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      color: #999;
+      margin-bottom: 0;
+    }
+  }
+  .product_product {
+    .row {
+      .product_product_items {
+        height: 400px;
+        padding-left: 0;
+        padding-right: 40px;
+        cursor: pointer;
+        text-align: center;
+        .product_product_item {
+          width: 248px;
+          height: 400px;
+          padding-top: 50px;
+          -webkit-box-shadow: 4px 8px 20px 10px rgba(0, 58, 129, .1);
+          -moz-box-shadow: 4px 8px 20px 10px rgba(0, 58, 129, .1);
+          box-shadow: 4px 8px 20px 10px rgba(0, 58, 129, .1);
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          .item_logo {
+            margin: auto;
+            width: 70px;
+            height: 70px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          h4 {
+            margin-top: 60px;
+            margin-bottom: 30px;
+            font-size: 24px;
+            color: #333;
+          }
+          p {
+            font-size: 16px;
+            color: #808080;
+            line-height: 26px;
+            margin-bottom: 0;
+          }
+          a {
+            float: none;
+            margin: 40px auto 0;
+          }
+        }
+      }
+    }
+  }
+}
+.mz_product_fnc {
+  .fnc {
+    background-color: #fff;
+    padding: 80px 0;
+    .fnc_left {
+      width: 50%;
+      float: left;
+      h4 {
+        color: #333;
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 18px;
+        color: #808080;
+        line-height: 34px;
+        margin-bottom: 0px;
+      }
+      a {
+        float: none;
+        margin-top: 36px;
+      }
+    }
+    .fnc_right {
+      float: left;
+    }
+  }
+  .fnc_black {
+    background-color: #f7fafc;
+  }
+}
+//模杖产品页结束
