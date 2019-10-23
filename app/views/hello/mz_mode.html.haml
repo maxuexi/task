@@ -1,0 +1,62 @@
+.mz_mode_banner
+  = image_tag "mz-mode-banner.jpg"
+.mz_mode_process
+  .container
+    .process_intro
+      %h3 模板定制流程
+      %p 您想要的，我们都能帮您实现
+    .row
+      .process_index.col-lg-3.col-md-6
+        .index_box.clearfix
+          .index_left
+            .left_logo
+              = image_tag "mz-mode-process01.png"
+            %h4 提供模板要求
+            %p 填写定制信息
+            %p 上传模板格式要求
+          .index_right
+            = image_tag "mz-mode-processline.png"
+      .process_index.col-lg-3.col-md-6
+        .index_box.clearfix
+          .index_left
+            .left_logo
+              = image_tag "mz-mode-process02.png"
+            %h4 确认需求
+            %p 客服了解模板详情
+            %p 并确认需求
+          .index_right
+            = image_tag "mz-mode-processline.png"
+      .process_index.col-lg-3.col-md-6
+        .index_box.clearfix
+          .index_left
+            .left_logo
+              = image_tag "mz-mode-process03.png"
+            %h4 开始制作
+            %p 确认模板需求后
+            %p 技术人员开始制作模板
+          .index_right
+            = image_tag "mz-mode-processline.png"
+      .process_index.col-lg-3.col-md-6
+        .index_box.clearfix
+          .index_left
+            .left_logo
+              = image_tag "mz-mode-process04.png"
+            %h4 制作完成
+            %p 客服告知制作完成
+            %p 用户验收模板定制结果
+.mz_mode_info
+  .container
+    %h3 专属定制服务，令您轻松坐享其成
+    %form{:method => "post", :action => "/"}
+      .form-group.group01
+        %input.form-control{:type => "text", :name => "school_name", :placeholder => "学校全称" }
+        %input.form-control{:type => "text", :name => "degree", :placeholder => "适用学位" }
+      .form-group
+        %input.form-control{:type => "text", :name => "range", :placeholder => "适用范围（如：全校、经管学院、学术教育、自考、学术型）" }
+      .form-group
+        %input.form-control{:type => "tel", :name => "tel", :placeholder => "联系电话" }
+        %input.form-control{:type => "text", :name => "from", :placeholder => "规范来源" }
+      .form-group
+        %input.form-control{:type => "file", :name => "file", :placeholder => "上传规范要求" }
+        %p | 选择文件
+      %button{:type => "submit"} 立即定制
